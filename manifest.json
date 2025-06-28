@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "AZ AI Helper",
+  "version": "0.1",
+  "author": "Debhayush Nandy",
+  "description": "Injects Gemini AI Help into maang.in coding problems.",
+  "permissions": ["scripting", "tabs", "storage", "activeTab"],
+  "host_permissions": ["https://maang.in/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://maang.in/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["https://maang.in/*"]
+    }
+  ],
+
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "AI helper for maang.in"
+  }
+}
