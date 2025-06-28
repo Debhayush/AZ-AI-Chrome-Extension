@@ -39,6 +39,9 @@ Click Load unpacked.
 Select the root folder of this extension (where manifest.json is).
 
 Visit https://maang.in/problems/... and click the AI Help button.
+---
+
+## 📁 Folder Structure
 📁 project-root/
 ├── content.js # Main logic for AI chat + injection
 ├── inject.js # Network interceptor for problem data
@@ -47,6 +50,21 @@ Visit https://maang.in/problems/... and click the AI Help button.
 ├── assets/ # Icon(s)
 ├── manifest.json # Chrome extension config
 └── README.md # You’re reading it!
+
+---
+
+## 💡 Example Prompt
+User: What are the constraints?
+AI: [lists constraints from the problem]
+
+User: Give a hint.
+AI: Here's a helpful hint...
+
+User: I give up.
+AI: Here's the full C++ solution.
+
+---
+
 
 
 Made with ❤️ by Debhayush Nandy
