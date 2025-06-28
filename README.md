@@ -39,24 +39,14 @@ Click Load unpacked.
 Select the root folder of this extension (where manifest.json is).
 
 Visit https://maang.in/problems/... and click the AI Help button.
+📁 project-root/
+├── content.js # Main logic for AI chat + injection
+├── inject.js # Network interceptor for problem data
+├── popup.html # Chrome popup UI
+├── popup.js # JS for popup.html (opens maang.in)
+├── assets/ # Icon(s)
+├── manifest.json # Chrome extension config
+└── README.md # You’re reading it!
 
-📁 Folder Structure
-├── content.js         # Main logic for AI chat + injection
-├── inject.js          # Network interceptor for problem data
-├── popup.html         # Chrome popup UI
-├── popup.js           # JS for popup.html (opens maang.in)
-├── assets/            # Icon(s)
-├── manifest.json      # Chrome extension config
-└── README.md          # You’re reading it!
-
-💡 Example Prompt
-User: What are the constraints?
-AI: [lists constraints from the problem]
-User: Give a hint.
-AI: Here's a helpful hint...
-User: I give up.
-AI: Here's the full C++ solution.
-📢 License
-This project is for educational and personal use. Please do not distribute it with your API key.
 
 Made with ❤️ by Debhayush Nandy
