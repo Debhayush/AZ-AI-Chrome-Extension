@@ -48,6 +48,7 @@ Visit https://maang.in/problems/... and click the AI Help button.
 ├── assets/            # Icon(s)
 ├── manifest.json      # Chrome extension config
 └── README.md          # You’re reading it!
+
 💡 Example Prompt
 User: What are the constraints?
 AI: [lists constraints from the problem]
