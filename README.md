@@ -41,10 +41,6 @@ Select the root folder of this extension (where manifest.json is).
 Visit https://maang.in/problems/... and click the AI Help button.
 
 📁 Folder Structure
-bash
-Copy
-Edit
-.
 ├── content.js         # Main logic for AI chat + injection
 ├── inject.js          # Network interceptor for problem data
 ├── popup.html         # Chrome popup UI
@@ -53,9 +49,6 @@ Edit
 ├── manifest.json      # Chrome extension config
 └── README.md          # You’re reading it!
 💡 Example Prompt
-txt
-Copy
-Edit
 User: What are the constraints?
 AI: [lists constraints from the problem]
 User: Give a hint.
